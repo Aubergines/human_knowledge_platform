@@ -5,9 +5,9 @@ $(function () {
     var server = "";    //http://192.168.1.142:18080
     var config = {
         api: {
-            getPicList: server + "/services/knowledge/comm/data/materiel/getMapList",
-            save: server + "/services/knowledge/customer/answer/create",
-            getUser: server + "/services/knowledge/customer/baseinfo/getMapList"
+            getPicList: server + "/knowledge/comm/data/materiel/getMapList",
+            save: server + "/knowledge/customer/answer/create",
+            getUser: server + "/knowledge/customer/baseinfo/getMapList"
         },
         title: "医学名词测验",
         frontMap: {
